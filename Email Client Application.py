@@ -231,8 +231,8 @@ def test_email_client():
     success, message = client.send_email(TEST_RECIPIENT, "", "This is a test email.")
     print(f"Result: {'Success' if success else 'Failed'} - {message}\n")
 
-# Uncomment to run test cases before launching GUI
-test_email_client()
+#Uncomment to run test cases before launching GUI
+#test_email_client()
 
 # Start GUI
 if __name__ == "__main__":
